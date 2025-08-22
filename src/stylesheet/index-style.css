@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+  @keyframes glow {
+    0% { box-shadow: 0 0 5px #22c55e, 0 0 10px #22c55e; }
+    50% { box-shadow: 0 0 15px #22c55e, 0 0 25px #22c55e; }
+    100% { box-shadow: 0 0 5px #22c55e, 0 0 10px #22c55e; }
+  }
+  .screen-on {
+    animation: glow 1.5s infinite ease-in-out;
+  }
+
+
